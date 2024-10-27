@@ -1,0 +1,83 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Footer Styles */
+  .footer-btm {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    background-color: #190e45;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .footer-query {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .footer-para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .callback-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  
+  .callback-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .contact-info span {
+    font-weight: bold;
+    color: #fff; /* Adjusted to fit the dark background */
+  }
+  .contact{
+    color: #FF0000;
+  }
+  
+  /* Copyright */
+/* Copyright */
+/* Copyright */
+.copyright {
+    background-color: #e4d668;
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    width: 100vw; /* Full viewport width */
+    position: fixed; /* Sticks it to the bottom */
+    bottom: 0; /* Aligns it to the bottom of the viewport */
+    left: 50%; /* Centers the full-width div */
+    transform: translateX(-50%); /* Adjust centering */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    z-index: 999; /* Ensures it's above other content */
+  }
+  
+  
+  .copyright span {
+    color: #007bff;
+  }
+  

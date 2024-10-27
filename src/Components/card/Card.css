@@ -1,0 +1,75 @@
+.main_card_container {
+  background-color: #ffffff;
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+.image_container {
+  width: 100%;
+}
+.banner_image {
+  border-radius: 8px;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.button_container {
+  margin-top: 8px;
+}
+.online_btn {
+  background-color: #00c32b33;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+.offline_btn {
+  background-color: #e4d66833;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+.hybrid_btn {
+  background-color: #ff000033;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.duration {
+  color: #ff0000;
+  font-weight: bold;
+}
+.title {
+  margin: auto;
+}
+
+.booking_container {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.more_details_btn {
+  border-radius: 6px;
+  padding: 8px 20px;
+  background-color: white;
+  width: 45%;
+  font-weight: bold;
+}
+.book_demo_btn {
+  border-radius: 6px;
+  padding: 8px 20px;
+  width: 45%;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
